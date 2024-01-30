@@ -1,4 +1,4 @@
-const clock = document.querySelector("h2#clock");
+const clock = document.querySelector("#clock");
 
 function getClock() {
    const date = new Date();
@@ -7,5 +7,5 @@ function getClock() {
    const seconds = String(date.getSeconds()).padStart(2,"0");
    clock.innerText = `${hours}:${minutes}:${seconds}`
 }
-
+ 
 setInterval(getClock, 1000)
