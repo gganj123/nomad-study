@@ -28,3 +28,4 @@ if(savedUsername === null){
     paintGreetings(savedUsername);
     greeting.classList.add("showing")
 }
+
