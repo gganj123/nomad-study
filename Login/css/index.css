@@ -84,20 +84,18 @@ button{
     padding-left: 95%;
 }
 body {
-    position: absolute;
     margin: 0;
     padding : 0;
-    opacity:1;
 }
 
 #imgg {
     position: absolute;
     animation: fadeIn 0.5s linear;
-    width:100vw;
-    height: 100vh;
-    margin: 0;
-    padding : 0;
     opacity:0.8;
+}
+#study{
+    width:100vw;
+    height: 300px;
 }
 
 @keyframes fadeIn{
